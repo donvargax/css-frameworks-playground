@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/extract-text-webpack-plugin": "^2.1.0",
     "@types/lodash": "^4.14.71",
     "@types/webpack": "^3.0.5",
     "awesome-typescript-loader": "^3.2.1",

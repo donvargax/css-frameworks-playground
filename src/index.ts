@@ -1,3 +1,5 @@
+import './styles/index.scss';
+
 import * as _ from 'lodash'
 
 function component() {
