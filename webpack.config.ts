@@ -75,10 +75,11 @@ const config: Config = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: 'Output Management'
+            template: 'src/index.ejs',
+            title: 'Output Management',
         },),
         extractSass,
-    ]
+    ],
 }
 
 export default config
