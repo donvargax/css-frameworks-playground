@@ -21,3 +21,19 @@ $family-primary: $family-serif;
 
 // 4. Import the rest of Bulma
 @import "bulma/bulma";
+
+main {
+    @extend .columns;
+    #articles {
+        @extend .column;
+        @extend .is-three-quarters;
+    }
+    aside {
+        @extend .column;
+    }
+}
+
+button {
+    @extend .button;
+    @extend .is-primary;
+}
